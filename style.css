@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 1100px;
+  background-color: #1b3764;
+  position: relative;
+}
+.navbar {
+  position: absolute;
+  background-color: #1b3764;
+  border-radius: 10px;
+  width: 80%;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.navbar li {
+  float: right;
+  list-style: none;
+  margin: 5px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.icon {
+  float: left;
+  color: white;
+  padding: 5px;
+}
+.icon i {
+  padding: 10px;
+  border: 1px solid white;
+}
+.icon span {
+  font-size: 22px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 200px;
+  padding: 0px;
+  gap: 95px;
+
+  position: absolute;
+
+  border: 4px solid black;
+  width: 1301px;
+  height: 800px;
+  top: 180px;
+  /* position: relative; */
+}
+
+.content {
+  width: 614px;
+  /* background-color: rgb(138, 97, 26); */
+  margin-top: 50px;
+  padding-top: 60px;
+  /* float: left; */
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.right {
+  width: 614px;
+  height: 800px;
+  background-color: blanchedalmond;
+}
+
+.btn_1 {
+  width: 220px;
+  height: 65px;
+  background: #ffca42;
+  border-radius: 5px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+}
+.btn_2 {
+  text-decoration: underline;
+  width: 220px;
+  height: 65px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+}
+.welcome {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.books {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+}
+
+.ratings_part {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-left: 10px;
+}
+.yello_circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  background: #ffca42;
+}
+
+/* author books start*/
+.author_books {
+  text-align: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+.image-container img {
+  width: 20%;
+  height: auto;
+  margin: 5px;
+}
+
+/*  */
+.author_section {
+  height: 700px;
+  border: 2px solid black;
+  background: #f4f8ff;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 50%; */
+  margin: 5px;
+  width: 1299.78px;
+  height: 690px;
+  margin-top: 5%;
+  margin-left: 15%;
+
+  /* border: 2px solid red; */
+}
+.img {
+  max-width: 80%;
+  height: auto;
+}
+#about_author {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 120%;
+
+  letter-spacing: -0.02em;
+
+  color: #1b3764;
+}
+.barcode {
+  text-align: center;
+  background-color: #1b3764;
+  width: 50%;
+  color: #ffffff;
+  border-radius: 2px;
+}
+/* banner_two */
+.flower_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1 px solid black;
+  background-color: #1b3764;
+}
+.box_1 {
+  /* border: 1px solid #952323; */
+  width: 567px;
+  height: 262px;
+  background-color: #1b3764;
+  color: #f4f8ff;
+  margin-top: 92px;
+}
+
+.coffe_img {
+  margin-top: 20px;
+  width: 600px;
+  height: 400px;
+}
+/*  */
+#custom {
+  margin-left: 33%;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #1b3764;
+}
+
+.lern {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  gap: 20px;
+  width: 1300px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.all_text {
+  width: 611px;
+  height: 630px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 10px;
+  margin-top: 127px;
+}
+.text_1_2 {
+  width: 290px;
+  height: 150px;
+}
+
+.text_2_3 {
+  width: 290px;
+  height: 150px;
+}
+
+.img_redbook {
+  position: relative;
+  width: 500px;
+  height: 615px;
+  /* background-color: #ffca42; */
+  /* object-fit: cover; */
+}
+
+.comon_class {
+  /* text-align: center; */
+  width: 290px;
+  height: 183px;
+  background-color: #f4f8ff;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
+.c_yello {
+  background-color: #ffca42;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.random_text {
+  font-size: 20px;
+  padding-top: 15px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1b3764;
+}
+/*  */
+.curd {
+  width: 1920px;
+  height: 819px;
+  background: #f4f8ff;
+}
+.curd_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.car_item {
+  width: 630px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+
+.car_item h4 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 20px;
+  color: #1b3764;
+}
+
+.car_item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  margin-left: 20px;
+}
+
+.sort_description {
+  width: 434px;
+  height: 159px;
+  margin-left: 44%;
+  margin-top: 2%;
+}
+
+#questions {
+  text-decoration: underline;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1b3764;
+}
+/*  */
+.reader_opinion_main {
+  width: 100%;
+  height:100%;
+  margin-top: 5%;
+  position: relative;
+}
+.container{
+  margin: 0 10%;
+
+}
+.row{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: relative;
+}
+
+.item{
+  width: 33%;
+}
+.middle_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-1{
+  width: 370px;
+  height: 309px;
+  background-color: #1b3764;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+.item h2 {
+  width: 326px;
+  height: 162px;
+
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #1b3764;
+}
+
+.item p {
+  color: #1b3764;
+}
+.card-1 p {
+  color: #f4f8ff;
+}
+
+.card-1 h3 {
+  color: #f4f8ff;
+}
+.card-1 h5 {
+  color: #f4f8ff;
+}
+
